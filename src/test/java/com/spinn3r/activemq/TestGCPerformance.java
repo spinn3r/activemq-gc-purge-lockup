@@ -125,6 +125,7 @@ public class TestGCPerformance {
 
         List<Long> createMessageOnExistingProducerAndConsumerLatencies = Lists.newArrayList();
 
+        System.out.printf( "Waiting for queues to GC and measuring latencies..." );
 
         while (queueMetaReader.read().size() > 1) {
 
@@ -133,6 +134,7 @@ public class TestGCPerformance {
 
             Thread.sleep( 500 );
 
+            System.out.printf( "." );
         }
 
         System.out.printf( "done!\n" );
