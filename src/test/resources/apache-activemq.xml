@@ -32,7 +32,7 @@
             brokerName="localhost"
             enableStatistics="true"
             persistent="false"
-            schedulerSupport="true"
+            schedulerSupport="false"
             useJmx="true"
             schedulePeriodForDestinationPurge="5000"
             dataDirectory="/tmp/artemis-embedded-broker">
