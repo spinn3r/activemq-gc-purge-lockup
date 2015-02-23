@@ -32,7 +32,8 @@
             brokerName="localhost"
             enableStatistics="true"
             persistent="false"
-            schedulerSupport="true"
+            schedulerSupport="false"
+            advisorySupport="false"
             useJmx="true"
             schedulePeriodForDestinationPurge="5000"
             dataDirectory="/tmp/artemis-embedded-broker">
@@ -42,8 +43,6 @@
                 <policyEntries>
                     <policyEntry queue=">"
                                  maxBrowsePageSize="2147483647"
-                                 advisoryForDelivery="true"
-                                 advisoryForConsumed="true"
                                  gcInactiveDestinations="true"
                                  inactiveTimoutBeforeGC="5000">
 

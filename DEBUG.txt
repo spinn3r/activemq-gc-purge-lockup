@@ -1,0 +1,4 @@
+ - I think disabling the scheduler via schedulerSupport="false" is a big
+   performance boost.
+
+ - I think disabling advisories would be a big performance boost as well.

@@ -16,3 +16,5 @@ mvn test
 It will then log while queues are being created, then at the end it will print
 latencies for regular / existing consumers vs creating a NEW consumer.  The
 new consumer will block for a long period of time.
+
+
