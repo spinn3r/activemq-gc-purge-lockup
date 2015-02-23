@@ -75,7 +75,8 @@ public class TestGCPerformance {
 
         Session session = connection.createSession( false, Session.AUTO_ACKNOWLEDGE );
 
-        int nrQueues = 7500;
+        int nrQueues = 2000;
+        //int nrQueues = 20;
 
         List<MessageConsumer> messageConsumers = Lists.newArrayList();
 
