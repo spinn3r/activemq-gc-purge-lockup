@@ -31,7 +31,7 @@
     <broker xmlns="http://activemq.apache.org/schema/core"
             brokerName="localhost"
             enableStatistics="true"
-            persistent="true"
+            persistent="false"
             schedulerSupport="true"
             useJmx="true"
             schedulePeriodForDestinationPurge="5000"
